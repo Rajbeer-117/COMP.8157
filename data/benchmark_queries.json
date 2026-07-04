@@ -1,0 +1,45 @@
+[
+  {
+    "query_id": "Q1",
+    "text": "remote code execution in windows service",
+    "top_k": 5,
+    "filters": {
+      "platform": "Windows",
+      "min_severity": 8.0
+    }
+  },
+  {
+    "query_id": "Q2",
+    "text": "web application database injection attack",
+    "top_k": 5,
+    "filters": {
+      "platform": "Web",
+      "min_severity": 7.0
+    }
+  },
+  {
+    "query_id": "Q3",
+    "text": "steal passwords and credential hashes from operating system",
+    "top_k": 5,
+    "filters": {
+      "tactic": "credential-access"
+    }
+  },
+  {
+    "query_id": "Q4",
+    "text": "cloud storage data exposure due to permissions",
+    "top_k": 5,
+    "filters": {
+      "platform": "Cloud",
+      "min_severity": 7.0
+    }
+  },
+  {
+    "query_id": "Q5",
+    "text": "attacker moves laterally using remote services",
+    "top_k": 5,
+    "filters": {
+      "source": "MITRE"
+    }
+  }
+]
